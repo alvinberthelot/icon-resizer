@@ -1,0 +1,20 @@
+{
+  "name": "icon-resizer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --project tsconfig.json ./src/resizer.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "0.32.6"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.1"
+  }
+}
